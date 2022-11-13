@@ -17,7 +17,7 @@ function openDatabase() {
     };
   }
 
-  const db = SQLite.openDatabase("db.db");
+  const db = SQLite.openDatabase("bmiDB.db");
   return db;
 }
 
